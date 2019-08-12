@@ -1,8 +1,8 @@
 ﻿#if ASP_NET_CORE
-using Overt.Core.Redis;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Microsoft.Extensions.DependencyInjection
+namespace Overt.Core.Redis
 {
     public static class ServiceCollectionExtensions
     {
